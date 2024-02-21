@@ -1,0 +1,41 @@
+
+<div class="h-[100vh] w-full flex flex-row justify-center items-center relative">
+    <div class="absolute inset-0">
+        <app-login-signup-header></app-login-signup-header>
+    </div>
+    <div class="z-10 p-4 h-[75%] w-[30%] flex flex-col items-center font-medium font-inter text-2xl text-white gap-3">
+        <h2>Log in to your account</h2>
+        <span>
+            <p class="text-lg text-[#93A0B9] font-normal">Please Enter Your Details&nbsp; !ٱلسَّلَامُ عَلَيْكُمْ</p>
+        </span>
+        <div class="w-full flex justify-center mt-4">
+            <form class="flex flex-col gap-3 w-[80%]">
+
+                <div>
+                    <label for="email" class="cursor-pointer text-lg font-medium">Email:</label>
+                    <input type="text" placeholder="example@gmail.com..." id="email" class="inputTextForm">
+                </div>
+
+                <div>
+                    <label for="password" class="cursor-pointer text-lg font-medium">Password:</label>
+                    <input type="text" id="password" placeholder="********"  class="inputTextForm">
+                </div>
+
+                <div class="flex justify-center mt-3 text-lg font-medium ">
+                    <button type="submit" class="submitButton">Log in</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="flex flex-row items-center justify-center w-full">
+            <div class="w-full border border-[#363F54] h-0"></div>
+            <p class="p-2 font-medium text-xl">OR</p>
+            <div class="w-full border border-[#363F54] h-0"></div>
+        </div>
+        <div class="flex justify-center text-base font-normal w-full">
+            <span class="text-[#93A0B9]">
+                Dont Have an account? &nbsp;&nbsp;<a class="inline-block text-blue-500 cursor-pointer hover:underline underline-offset-2">Sign up</a>
+            </span>
+        </div>
+    </div>
+</div>

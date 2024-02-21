@@ -1,0 +1,6 @@
+.inputTextForm {
+    @apply w-full bg-[#20242D] px-4 py-2 text-base rounded-lg font-normal border border-[#363F54] outline-none;
+}
+.submitButton {
+    @apply w-full bg-violet-700 p-2 rounded-lg hover:bg-indigo-700 transition ease-in-out shadow delay-75 hover:-translate-y-1 hover:scale-110 duration-300
+}
